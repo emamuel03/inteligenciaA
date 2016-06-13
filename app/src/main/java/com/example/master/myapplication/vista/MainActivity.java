@@ -22,17 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         manager = new BDManager(this);
-        //Pregunta p = new Pregunta();
-
-        /*p.setPregunta("Sufres de violencia fisica");
-        p.setNodoSi(0);
-        p.setNodoNo(0);
-        p.setNodoFinal(true);
-        manager.insertar(p);*/
-
-        //cursor = manager.buscarPregunta(1);
-
-
         btnIngresar = (Button)findViewById(R.id.btn_ingresar);
 
         btnIngresar.setOnClickListener(this);
@@ -42,6 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         Intent abrir = new Intent(this,Main2Activity.class);
         startActivity(abrir);
-        Toast.makeText(this,"Actividad dos",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Responda las preguntas",Toast.LENGTH_SHORT).show();
     }
 }

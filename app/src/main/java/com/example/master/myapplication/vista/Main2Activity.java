@@ -75,7 +75,6 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         leerPregunta();
 
         int nf = (c.getInt(c.getColumnIndex(BDManager.CN_NODOFINAL)));
-        Toast.makeText(this,"Todo legal"+nf,Toast.LENGTH_SHORT).show();
         if(nf == 1) {
             finalizarConversacion();
             i = 1;
