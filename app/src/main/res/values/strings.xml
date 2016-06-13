@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mi Asistente</string>
+    <string name="btn_finalizar">Finalizar</string>
+    <string name="btn_si">Si</string>
+    <string name="btn_no">No</string>
+    <string name="btn_ingresar">Ingresar</string>
+</resources>

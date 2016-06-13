@@ -1,0 +1,7 @@
+1::¿Tu pareja te golpea?::2::3::false
+2::Fisica::0::0::true
+3::¿Golpea a otros?::4::5::false
+4::Fisica::0::0::true
+5::¿Te amenaza cuando discuten?::6::7::false
+6::Psicologica::0::0::true
+7::No sufre de violencia::0::0::true
