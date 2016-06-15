@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.master.myapplication.R;
-import com.example.master.myapplication.datos.BDHelper;
 import com.example.master.myapplication.datos.BDManager;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
@@ -18,8 +17,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
     private Button btnSi;
     private Button btnNo;
     private Button btnFinalizar;
-   private Cursor c;
-    private BDHelper helper = new BDHelper(this);
+    private Cursor c;
     private BDManager manager;
     private int i=1;
 
